@@ -18,8 +18,8 @@ u = 10 * 325 #время на которое предоставляем сист
 t = np.linspace(0, u, L)
 
 # t = linspace(0,2*0.03, L)
-n = 100
-nn =100#количесвто экспериментов
+n = 10
+nn = n#количесвто экспериментов
 eps = 0.1
 dist = 2 * ((2 ** (2 / 3) * aep ** 2 - app ** 2) / (4 - 2 ** (2 / 3))) ** (1 / 2) # distance between protons
 sphere = np.array(np.random.normal(size =(n,3)))
